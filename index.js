@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(paymentRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Working!");
+  res.send(`Working! at ${PORT}`);
 });
 
 app.listen(PORT, () => {
