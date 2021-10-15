@@ -44,7 +44,7 @@ Router.post(
         const mailOptions = {
           from: process.env.EMAIL, // sender email address
           to: email, // receiver email address
-          subject: "Food Market - Your order is placed successfully.",
+          subject: "gofoodie - Your order is placed successfully.",
           html: message,
         };
 

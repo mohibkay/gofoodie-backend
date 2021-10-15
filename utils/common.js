@@ -99,7 +99,7 @@ exports.getHTMLText = (name, cart, order_id, address) => {
   <div style="margin-top: 2rem; font-weight:bold;">We'll be happy to serve you again.</div>
   <div style="margin-top: 1rem">
     <div>Thanks,</div>
-    <div>Food Market</div>
+    <div>gofoodie</div>
   </div>
   `;
 
